@@ -1,11 +1,26 @@
 /*font-family: 'Solitreo', cursive;
 font-family: 'Source Serif Pro', serif;
 */
+:root {
+  --heading-font-family: "Solitreo", cursive;
+  --default-font-family: "Source Serif Pro", serif;
+}
 
+body {
+  text-align: center;
+  padding: 10px;
+}
 h1 {
-  font-family: "Solitreo", cursive;
+  font-family: var(--heading-font-family);
+  font-size: 100px;
 }
 
 h2 {
-  font-family: "Source Serif Pro", serif;
+  font-family: var(--default-font-family);
+  font-size: 30px;
+}
+
+h3 {
+  font-family: var(--default-font-family);
+  font-size: 20px;
 }
