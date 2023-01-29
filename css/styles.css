@@ -17,16 +17,33 @@ h1 {
   color: var(--branding-color);
 }
 
-h2 {
+h2,
+h3 {
   font-family: var(--default-font-family);
   font-size: 30px;
   color: var(--secondary-color);
 }
 
-h3 {
+h4 {
+  font-family: var(--heading-font-family);
+  font-size: 40px;
+  color: white;
+}
+
+h5 {
   font-family: var(--default-font-family);
-  font-size: 30px;
+  font-size: 20px;
   color: var(--secondary-color);
+  padding: 10px;
+}
+
+h5 a {
+  text-decoration: none;
+  color: white;
+}
+
+h5 a:hover {
+  color: var(--branding-color);
 }
 
 .btn-branding {
@@ -35,7 +52,44 @@ h3 {
   color: white;
   font-size: 20px;
   line-height: 27px;
-  padding: 15px;
+  padding-top: 15px;
   font-family: var(--heading-font-family);
-  margin: 20px
+  margin: 20px;
+}
+
+.image a:hover {
+  opacity: 70%;
+}
+
+.icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.icons a:hover {
+  color: black;
+}
+
+.email a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: var(--heading-font-family);
+}
+
+.email a:hover {
+  color: black;
+}
+.container-footer {
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+footer {
+  background: var(--branding-color);
+  padding: 30px;
+  text-align: center;
+  width: 100%;
 }
