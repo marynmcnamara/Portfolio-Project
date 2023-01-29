@@ -93,6 +93,15 @@ footer {
   text-align: center;
   width: 100%;
 }
+.navbar {
+  background-color: var(--branding-color);
+  text-decoration: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
 
 @media (max-width: 576px) {
   body {
