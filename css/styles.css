@@ -10,6 +10,8 @@ body {
   padding: 10px;
   background: black;
 }
+
+/*Homepage */
 h1 {
   font-family: var(--heading-font-family);
   font-size: 100px;
@@ -56,7 +58,12 @@ h5 a:hover {
   font-family: var(--heading-font-family);
   margin: 20px;
 }
+/*About Me */
+.about-section-content h2 {
+  font-size: 60px;
+}
 
+/*Nav and Footer*/
 .image a:hover {
   opacity: 70%;
 }
@@ -82,7 +89,7 @@ h5 a:hover {
 .email a:hover {
   color: black;
 }
-.container-footer {
+.container-footer-desktop {
   color: white;
   justify-content: center;
   text-align: center;
@@ -134,5 +141,11 @@ footer {
   .container-footer-mobile {
     display: inline-block;
     text-align: center;
+  }
+  .container-footer-desktop {
+    display: none;
+  }
+  .about-section-content h2 {
+    display: none;
   }
 }
