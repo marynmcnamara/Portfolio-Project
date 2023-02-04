@@ -63,6 +63,39 @@ h5 a:hover {
   font-size: 60px;
 }
 
+/*My Work*/
+.work h4 {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  margin: 0;
+}
+.work h5 {
+  font-size: 14px;
+  margin: 0px;
+}
+
+.portfolio img {
+  margin: 0px;
+  padding: 0px;
+  border-top: 40px solid #f7f5fc;
+  border-bottom: 40px solid #f7f5fc;
+  border-left: 20px solid #f7f5fc;
+  border-right: 20px solid #f7f5fc;
+}
+
+.weather img {
+  margin: 0;
+  padding: 0;
+  border-top: 30px solid #f7f5fc;
+  border-bottom: 20px solid #f7f5fc;
+  border-left: 10px solid #f7f5fc;
+  border-right: 10px solid #f7f5fc;
+}
+
+.work h1 {
+  font-size: 70px;
+}
+
 /*Nav and Footer*/
 .image a:hover {
   opacity: 70%;
@@ -147,5 +180,8 @@ footer {
   }
   .about-section-content h2 {
     display: none;
+  }
+  .work h1 {
+    font-size: 50px;
   }
 }

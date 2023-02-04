@@ -22,10 +22,142 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/4bd7aa0311.js"
+      crossorigin="anonymous"
+    ></script>
     <title>My Work</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/" title="Homepage"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                tilte="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/about.html"
+                title="About Maryn McNamara"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/work.html"
+                title="Maryn McNamara's Work"
+                >My work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/contact.html"
+                title="Contact Maryn McNamara"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="page-break">
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
     <h1>My Work</h1>
-    <h2>My Name is Maryn</h2>
+    <h2>Here's what I've been working on...</h2>
+    <br />
+    <div class="container work">
+      <div class="row align-items-center">
+        <div class="col weather">
+          <img src="./images/weatherapp.png" width="500px" />
+          <h4>Weather App</h4>
+          <h5>Built with HTML, JavaScript, and CSS</h5>
+        </div>
+        <div class="col portfolio">
+          <div class="col">
+            <img src="images/fakeportfolio.png" width="500px" />
+            <h4>Portfolio Example</h4>
+            <h5>Built with HTML, JavaScript, and CSS</h5>
+          </div>
+        </div>
+        <div class="w-100"></div>
+        <br />
+        <div class="col">
+          <div class="col">
+            <img src="./images/worldclock.png" width="500px" />
+            <h4>World Clock App</h4>
+            <h5>Built with HTML, JavaScript, and CSS</h5>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <h1>More to come!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
+  <br />
+  <footer>
+    <div class="container-footer-desktop container-fluid">
+      <div class="row">
+        <div class="col icons">
+          <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-dribbble"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-figma"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+        <div class="col email">
+          <a href="mailto:maryn@marynmcnamara.com">maryn@marynmcnamara.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-footer-mobile">
+      <a href="mailto:maryn@marynmcnamara.com">maryn@marynmcnamara.com</a>
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">
+          <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </li>
+        <li class="list-group-item">
+          <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li class="list-group-item">
+          <a href="#" target="_blank"><i class="fa-brands fa-dribbble"></i></a>
+        </li>
+        <li class="list-group-item">
+          <a href="#" target="_blank"><i class="fa-brands fa-figma"></i></a>
+        </li>
+        <li class="list-group-item">
+          <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </html>
