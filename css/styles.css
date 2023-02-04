@@ -96,6 +96,19 @@ h5 a:hover {
   font-size: 70px;
 }
 
+/*Contact Page*/
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: var(--heading-font-family);
+  color: white;
+
+}
+
+.mb-3 {
+  text-align: left;
+}
+
 /*Nav and Footer*/
 .image a:hover {
   opacity: 70%;

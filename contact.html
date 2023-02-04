@@ -22,10 +22,156 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/4bd7aa0311.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Contact Me</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/" title="Homepage"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                tilte="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/about.html"
+                title="About Maryn McNamara"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/work.html"
+                title="Maryn McNamara's Work"
+                >My work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/contact.html"
+                title="Contact Maryn McNamara"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="page-break">
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
     <h1>Contact Me</h1>
-    <h2>My Name is Maryn</h2>
+    <h2>Let's get in touch!</h2>
+    <br/><br/>
+    <form class="form">
+      <div class="container">
+        <div class="row">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Name</label
+            >
+            <input
+              type="name"
+              class="form-control"
+              id="name"
+              placeholder="Name"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" placeholder="Your message here"
+              >Message</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-branding">
+          Say Hello!
+        </button>
+      </div>
+    </form>
   </body>
+  <br />
+  <footer>
+    <div class="container-footer-desktop container-fluid">
+      <div class="row">
+        <div class="col icons">
+          <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-dribbble"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-figma"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+        <div class="col email">
+          <a href="mailto:maryn@marynmcnamara.com">maryn@marynmcnamara.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-footer-mobile">
+      <a href="mailto:maryn@marynmcnamara.com">maryn@marynmcnamara.com</a>
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">
+          <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </li>
+        <li class="list-group-item">
+          <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li class="list-group-item">
+          <a href="#" target="_blank"><i class="fa-brands fa-dribbble"></i></a>
+        </li>
+        <li class="list-group-item">
+          <a href="#" target="_blank"><i class="fa-brands fa-figma"></i></a>
+        </li>
+        <li class="list-group-item">
+          <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </html>
